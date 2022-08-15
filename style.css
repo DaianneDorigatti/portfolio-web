@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 h1 {
     color: green;
     font-style: italic;
@@ -27,7 +31,7 @@ h1 {
     font-weight: 100;
     line-height: 1;
     border: 5px;
-
+    display: inline-block;
 }
 
 body {
@@ -68,7 +72,7 @@ body {
 
 .list-style-daianne {
 
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 10px;
     margin-top: 10px;
     margin-left: 10px;
@@ -76,10 +80,13 @@ body {
 
 .list-style-pandora {
 
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 10px;
     margin-top: 10px;
     margin-left: 10px;
+    border: 5px solid;
+    border-right: 10px;
+    box-sizing: border-box;
 }
 
 .paragrafo {
@@ -88,6 +95,7 @@ body {
     height: 1150px;
     overflow-y: none;
     overflow-x: none;
+    font-family: fantasy sans-serif;
 }
 
 .habilidades {
